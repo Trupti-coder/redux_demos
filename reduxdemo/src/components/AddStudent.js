@@ -20,11 +20,15 @@ function AddStudent(){
 
     }
 
+    function submitHandler(event){
+
+    }
+
 
     
     return(
        <>
-       <form>
+       <form onSubmit={submitHandler}>
         <div>
             RollNo:<input type="text" onChange={rollnoChange}  ></input>
         </div>
