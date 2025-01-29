@@ -6,15 +6,17 @@ function AddStudent(){
     let[txtmarks,setMarks]=useState("");
 
     function rollnoChange(event){
+        setRollNo(event.target.value);
         
-
     }
     
     function nameChange(event){
+        setName(event.target.value);
 
     }
 
     function markChange(event){
+        setMarks(event.target.value);
 
     }
 
