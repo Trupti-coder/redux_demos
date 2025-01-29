@@ -4,6 +4,18 @@ function AddStudent(){
     let[txtrollno,setRollNo]=useState("");
     let[txtname,setName]=useState("");
     let[txtmarks,setMarks]=useState("");
+
+    function rollnoChange(){
+
+    }
+    
+    function nameChange(){
+
+    }
+
+    function markChange(){
+        
+    }
     
     return(
        <>
