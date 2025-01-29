@@ -1,4 +1,6 @@
+import { useState } from "react";
 function AddStudent(){
+    
     return(
        <>
        <form>
