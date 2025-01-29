@@ -3,7 +3,7 @@ function AddStudent(){
        <>
        <form>
         <div>
-            RollNo:<input type="text" ></input>
+            RollNo:<input type="text"  ></input>
         </div>
         <div>
            Name:<input type="text"></input> 
