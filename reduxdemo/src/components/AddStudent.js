@@ -3,13 +3,13 @@ function AddStudent(){
        <>
        <form>
         <div>
-            RollNo:<input type="text"  ></input>
+            RollNo:<input type="text" onChange={rollnoChange}  ></input>
         </div>
         <div>
-           Name:<input type="text"></input> 
+           Name:<input type="text" onChange={nameChange} ></input> 
         </div>
         <div>
-            Marks:<input type="text"></input>
+            Marks:<input type="text" onChange={markChange} ></input>
         </div>
        </form>
        </>
