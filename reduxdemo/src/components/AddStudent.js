@@ -5,17 +5,20 @@ function AddStudent(){
     let[txtname,setName]=useState("");
     let[txtmarks,setMarks]=useState("");
 
-    function rollnoChange(){
+    function rollnoChange(event){
+        
 
     }
     
-    function nameChange(){
+    function nameChange(event){
 
     }
 
-    function markChange(){
-        
+    function markChange(event){
+
     }
+
+
     
     return(
        <>
@@ -28,6 +31,9 @@ function AddStudent(){
         </div>
         <div>
             Marks:<input type="text" onChange={markChange} ></input>
+        </div>
+        <div>
+            <input type="submit" value="insert"></input>
         </div>
        </form>
        </>
