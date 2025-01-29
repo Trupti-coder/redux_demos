@@ -21,6 +21,8 @@ function AddStudent(){
     }
 
     function submitHandler(event){
+        event.preventDefault();
+        
 
     }
 
