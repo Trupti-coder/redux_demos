@@ -1,5 +1,9 @@
 import { useState } from "react";
 function AddStudent(){
+
+    let[txtrollno,setRollNo]=useState("");
+    let[txtname,setName]=useState("");
+    let[txtmarks,setMarks]=useState("");
     
     return(
        <>
