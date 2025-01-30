@@ -9,7 +9,14 @@ const initArr={
     ]
 }
 
-function studReducer(){
+function studReducer(stud=initArr,action){
+    switch (action.type) {
+        case "students/addStudent":
+            return{
+                ...state,
+            }
+    }
+
     return(
         <>
         </>
