@@ -29,7 +29,7 @@ function studReducer(stud=initArr,action){
             case "students/allStudents";
             return{
                 ....state,
-                students:state.students.map(()=>{
+                students:state.students.map((stud)=>{
                     if(stud.rollno===action.payload){
                         return{
                             ...stud
@@ -37,15 +37,15 @@ function studReducer(stud=initArr,action){
 
                     }
                     else{
+                        return stud
 
                     }
-                })
+                }),
             }
-    }
+            default:
+            return state;
+    };
 
-    return(
-        <>
-        </>
-    );
+    
 }
 export default studReducer;
