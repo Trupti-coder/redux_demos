@@ -28,7 +28,15 @@ function studReducer(stud=initArr,action){
 
             case "students/allStudents";
             return{
-                
+                ....state,
+                students:state.students.map(()=>{
+                    if(){
+
+                    }
+                    else{
+                        
+                    }
+                })
             }
     }
 
