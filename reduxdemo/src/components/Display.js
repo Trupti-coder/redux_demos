@@ -15,13 +15,11 @@ function Display(){
 
     };
 
-    function funcRowClick(){
+    function funcRowClick(students,event){
+        event.preventDefault();
+        deleteStudents(students.rollno);
 
-    }
-
-
-
-    
+    };
 
     return(
         <>
