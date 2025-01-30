@@ -29,6 +29,11 @@ function AddStudent(){
 
     const dispatch=useDispatch();
     function addStudent(){
+        return dispatch({
+            type:"students/addStudent",
+            payload:{rollno:txtrollno,name:txtname,marks:txtmarks}
+
+        })
     
     }
 
