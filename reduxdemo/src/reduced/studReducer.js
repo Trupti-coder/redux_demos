@@ -14,7 +14,8 @@ function studReducer(stud=initArr,action){
         case "students/addStudent":
             return{
                 ...state,
-            }
+                students:[...state.students,action.payload],
+            };
     }
 
     return(
