@@ -7,6 +7,16 @@ function Display(){
     //for deletinf studentRow 
     const dispatch=useDispatch();
 
+    const deleteStudents=(rollno)=>{
+        dispatch({
+            type:"students/deleteStudents",
+            payload:rollno,
+        }),
+
+    };
+
+    
+
     
 
     return(
