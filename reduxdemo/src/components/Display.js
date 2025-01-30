@@ -33,10 +33,10 @@ function Display(){
             </tr>
             {studArr.map(()=>{
                 <tr key={x.rollno}>
-                    <td>{}</td>
-                    <td>{}</td>
-                    <td>{}</td>
-                    <td></td>
+                    <td>{x.rollno}</td>
+                    <td>{x.name}</td>
+                    <td>{x.marks}</td>
+                    <td><a href="">Edit</a>/<a href="">Delete</a></td>
 
                 </tr>
 
