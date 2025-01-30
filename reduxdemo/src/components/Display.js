@@ -32,8 +32,12 @@ function Display(){
 
             </tr>
             {studArr.map(()=>{
-                <tr>
-                    
+                <tr key={x.rollno}>
+                    <td>{}</td>
+                    <td>{}</td>
+                    <td>{}</td>
+                    <td></td>
+
                 </tr>
 
             })
