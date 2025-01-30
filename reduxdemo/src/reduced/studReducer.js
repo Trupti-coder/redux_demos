@@ -18,11 +18,18 @@ function studReducer(stud=initArr,action){
             };
 
             //logic to delete
-            case:"students/deleteStudents":
+            case "students/deleteStudents":
             return{
                 ...state,
                 students:state.students.filter((stud)=>stud.roono!==action.payload),
             };
+
+            //logic to complete a todo
+
+            case "students/allStudents";
+            return{
+                
+            }
     }
 
     return(
