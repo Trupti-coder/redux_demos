@@ -30,11 +30,14 @@ function studReducer(stud=initArr,action){
             return{
                 ....state,
                 students:state.students.map(()=>{
-                    if(){
+                    if(stud.rollno===action.payload){
+                        return{
+                            ...stud
+                        };
 
                     }
                     else{
-                        
+
                     }
                 })
             }
