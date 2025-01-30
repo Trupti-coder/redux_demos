@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {useDispatch} from "react";
+
 function AddStudent(){
 
     let[txtrollno,setRollNo]=useState("");
@@ -23,11 +25,14 @@ function AddStudent(){
     function submitHandler(event){
         event.preventDefault();
         
+    }
 
+    const dispatch=useDispatch();
+    function addStudent(){
+    
     }
 
 
-    
     return(
        <>
        <form onSubmit={submitHandler}>
