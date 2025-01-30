@@ -3,7 +3,12 @@ function Display(){
 
     const data=(state)=>state.students;
     const studArr=useSelector(data);
+
+    //for deletinf studentRow 
+    const dispatch=useDispatch();
+
     
+
     return(
         <>
         </>
