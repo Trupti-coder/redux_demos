@@ -23,6 +23,17 @@ function Display(){
 
     return(
         <>
+        <table border="2">
+            <tr>
+                <th>RollNo</th>
+                <th>Name</th>
+                <th>Marks</th>
+
+            </tr>
+
+
+        </table>
+
         </>
     );
 }
