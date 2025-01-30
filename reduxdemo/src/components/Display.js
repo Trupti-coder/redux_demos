@@ -36,7 +36,7 @@ function Display(){
                     <td>{x.rollno}</td>
                     <td>{x.name}</td>
                     <td>{x.marks}</td>
-                    <td><a href="">Edit</a>/<a href="">Delete</a></td>
+                    <td onClick={(event)=>{event.preventDefault();funcRowClick(x,event)}}><a href="">Edit</a>/<a href="">Delete</a></td>
 
                 </tr>
 
