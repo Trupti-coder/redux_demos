@@ -28,8 +28,17 @@ function Display(){
                 <th>RollNo</th>
                 <th>Name</th>
                 <th>Marks</th>
+                <th>Action</th>
 
             </tr>
+            {studArr.map(()=>{
+                <tr>
+                    
+                </tr>
+
+            })
+
+            }
 
 
         </table>
