@@ -5,6 +5,7 @@ function Display(){
     const studArr=useSelector(data);
 
     //for deletinf studentRow 
+
     const dispatch=useDispatch();
 
     const deleteStudents=(rollno)=>{
@@ -31,8 +32,11 @@ function Display(){
                 <th>Action</th>
 
             </tr>
-            {studArr.map(()=>{
-                <tr key={x.rollno}>
+
+            {
+              studArr.map((x)=>{
+
+               return <tr key={x.rollno}>
                     <td>{x.rollno}</td>
                     <td>{x.name}</td>
                     <td>{x.marks}</td>
