@@ -9,7 +9,7 @@ const initArr={
     ]
 }
 
-function studReducer(stud=initArr,action){
+function studReducer(state=initArr,action){
     switch (action.type) {
         case "students/addStudent":
             return{
@@ -26,9 +26,9 @@ function studReducer(stud=initArr,action){
 
             //logic to complete a todo
 
-            case "students/allStudents";
+            case "students/allStudents":
             return{
-                ....state,
+                ...state,
                 students:state.students.map((stud)=>{
                     if(stud.rollno===action.payload){
                         return{

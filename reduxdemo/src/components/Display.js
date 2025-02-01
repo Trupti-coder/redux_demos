@@ -12,7 +12,7 @@ function Display(){
         dispatch({
             type:"students/deleteStudents",
             payload:rollno,
-        }),
+        });
 
     };
 
